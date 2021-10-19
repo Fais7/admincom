@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/admincom/static/css/main.fbe4e31a.chunk.css",
+    "main.js": "/admincom/static/js/main.fba3414c.chunk.js",
+    "main.js.map": "/admincom/static/js/main.fba3414c.chunk.js.map",
+    "runtime-main.js": "/admincom/static/js/runtime-main.409a5cf7.js",
+    "runtime-main.js.map": "/admincom/static/js/runtime-main.409a5cf7.js.map",
+    "static/css/2.73898b05.chunk.css": "/admincom/static/css/2.73898b05.chunk.css",
+    "static/js/2.0c40775d.chunk.js": "/admincom/static/js/2.0c40775d.chunk.js",
+    "static/js/2.0c40775d.chunk.js.map": "/admincom/static/js/2.0c40775d.chunk.js.map",
+    "static/js/3.c54786f9.chunk.js": "/admincom/static/js/3.c54786f9.chunk.js",
+    "static/js/3.c54786f9.chunk.js.map": "/admincom/static/js/3.c54786f9.chunk.js.map",
+    "index.html": "/admincom/index.html",
+    "static/css/2.73898b05.chunk.css.map": "/admincom/static/css/2.73898b05.chunk.css.map",
+    "static/css/main.fbe4e31a.chunk.css.map": "/admincom/static/css/main.fbe4e31a.chunk.css.map",
+    "static/js/2.0c40775d.chunk.js.LICENSE.txt": "/admincom/static/js/2.0c40775d.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/admincom/static/media/arrow_right.f7c6ac6d.svg",
+    "static/media/all.min.css": "/admincom/static/media/fa-solid-900.eeccf4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.409a5cf7.js",
+    "static/css/2.73898b05.chunk.css",
+    "static/js/2.0c40775d.chunk.js",
+    "static/css/main.fbe4e31a.chunk.css",
+    "static/js/main.fba3414c.chunk.js"
+  ]
+}
