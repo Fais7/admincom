@@ -1,53 +1,37 @@
 import React from 'react';
 
-
 const Contact = () => {
     return (
-        <div className="container contact my-2">
-            <div className="row">
-                <div className="col-md-3">
-                    <div className="contact-info">
-                        <h2>Contact Us</h2>
-                        <h4>We would love to hear from you !</h4>
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div id="content" >
+                        <h1> Contact me </h1>
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="username" class="iconic user" > Name <span class="required">*</span></label>
+                                <input type="text" class="form-control" name="username" id="username" required="required" placeholder="Hi friend, how may I call you ?" />
+                            </div>
+                            <div class="form-group">
+                                <label for="usermail" class="iconic mail-alt"> E-mail address <span class="required">*</span></label>
+                                <input type="email" class="form-control" name="usermail" id="usermail" placeholder="I promise I hate spam as much as you do" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="iconic quote-alt"> Subject </label>
+                                <input type="text" class="form-control" name="subject" id="subject" required="required" placeholder="What would you like to talk about?" />
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="iconic comment"> Message </label>
+                                <textarea name="message" id="message" class="form-control" rows="3" placeholder="Don't be shy, live me a friendly message and I'll answer as soon as possible" required="required"></textarea>
+                            </div>
+                            <input type="submit" value=" ★  Send the mail !" />
+                        </form>
                     </div>
                 </div>
-                <div className="col-md-9">
-                    <div className="contact-form">
-                        <div className="form-group">
-                            <label className="control-label col-sm-2" htmlFor="fname">First Name:</label>
-                            <div className="col-sm-10">
-                                <input type="text" className="form-control" id="fname" placeholder="Enter First Name" name="fname" />
-                            </div>
-                        </div>
-                        <div className="form-group">
-                            <label className="control-label col-sm-2" htmlFor="lname">Last Name:</label>
-                            <div className="col-sm-10">
-                                <input type="text" className="form-control" id="lname" placeholder="Enter Last Name" name="lname" />
-                            </div>
-                        </div>
-                        <div className="form-group">
-                            <label className="control-label col-sm-2" htmlFor="email">Email:</label>
-                            <div className="col-sm-10">
-                                <input type="email" className="form-control" id="email" placeholder="Enter email" name="email" />
-                            </div>
-                        </div>
-                        <div className="form-group">
-                            <label className="control-label col-sm-2" htmlFor="comment">Comment:</label>
-                            <div className="col-sm-10">
-                                <textarea className="form-control" rows="5" id="comment"></textarea>
-                            </div>
-                        </div>
-                        <div className="form-group">
-                            <div className="col-sm-offset-2 col-sm-10">
-                                <button type="submit" className="btn btn-default">Submit</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
-
     )
 }
 
-export default Contact
+export default Contact;

@@ -9,7 +9,7 @@ import Adminlog from './Adminlog'
 import Images from './Images'
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} ></Route>
@@ -19,7 +19,7 @@ const App = () => {
         <Route exact path="/Images" component={() => <Images name="Tanveer bhai" />} />
         <Route component={Error} ></Route>
       </Switch>
-    </div>
+    </>
   )
 }
 

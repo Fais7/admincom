@@ -14,7 +14,7 @@ const Cardd = (props) => {
                         <h6>Cat : {cat}</h6>
                         <h6>Company : {cmp}</h6>
                     </p>
-                    <a href="/" class="btn btn-success text-white-50">Add to cart</a>
+                    <a href="/#" class="btn btn-success text-white-50">Add to cart</a>
                 </div>
             </div>
         </div>
