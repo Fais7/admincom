@@ -38,7 +38,7 @@ const Restt = () => {
     return (
         <>
             <div className='container'>
-                <marquee behavior="scoll" direction="right" ><h1>wecome admin !!!  **welcome to admin portal** </h1></marquee>
+                <marquee behavior="scroll" direction="left"><h1>wecome admin !!!  **welcome to admin portal** </h1></marquee>
                 <table className="table table-success table-striped table-hover text-center table-bordered border-dark">
                     {<thead>
                         <tr>
@@ -135,7 +135,7 @@ const Restt = () => {
                         <input className="form-control" type="text" name="cmp" id="productcompany" value={fdata.cmp} onChange={getdata} />
                     </div><br />
                     <div className="d-grid">
-                    <button type="submit" className="btn btn-outline-warning">Add product</button>
+                        <button type="submit" className="btn btn-outline-warning">Add product</button>
                     </div>
                 </form>
 

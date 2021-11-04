@@ -1,11 +1,11 @@
 import React from 'react'
-import { NavLink,useHistory } from 'react-router-dom'
+import { NavLink, useHistory } from 'react-router-dom'
 
 const Navbar = () => {
-  let history=useHistory();
-  const his=()=>{
+  let history = useHistory();
+  const his = () => {
     // history.goBack(); //jis pr phle click kiya hoga us pr jyega return.
-    history.push("/"); //page ko redirect krne ke liye h {home pr redirect}.
+    history.push("/Home"); //page ko redirect krne ke liye h {home pr redirect}.
 
   }
   return (
@@ -30,7 +30,7 @@ const Navbar = () => {
                   <NavLink className="nav-link" exact to="/Contact">Contact</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" exact to="/Images">Images</NavLink>
+                  <NavLink className="nav-link disabled" exact to="/Images" >Images</NavLink>
                 </li>
               </ul>
               <button className="nav-link btn btn-sm-warning text-white-50" onClick={his}>go BACK</button>

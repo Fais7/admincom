@@ -11,8 +11,8 @@ import 'mdbreact/dist/css/mdb.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-    <App />
+    <Router basename={process.env.PUBLIC_URL}>
+      <App />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

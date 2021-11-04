@@ -10,13 +10,13 @@ import Images from './Images'
 const App = () => {
   return (
     <div>
-    <Navbar />
+      <Navbar />
       <Switch>
         <Route exact path="/" component={Home} ></Route>
         <Route exact path="/About" component={About} ></Route>
-        <Route exact path="/Contact" render={()=><Contact name="welcome to contact" />} ></Route>
+        <Route exact path="/Contact" render={() => <Contact name="welcome to contact" />} ></Route>
         <Route exact path="/Adminlog" component={Adminlog}></Route>
-        <Route exact path="/Images" component={()=><Images name="Tanveer bhai" />} />
+        <Route exact path="/Images" component={() => <Images name="Tanveer bhai" />} />
         <Route component={Error} ></Route>
       </Switch>
     </div>
